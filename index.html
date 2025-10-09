@@ -3,14 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HexGen</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
   <link rel="stylesheet" href="style.css">
-  <title>Hex Color Tester</title>
 </head>
 <body>
-  <h2>Hex Color Viewer</h2>
-  <input type="text" id="colorInput" placeholder="#000000" minlength="4" maxlength="7" autocomplete="off">
-  <p id="rgbVal"></p>
-  <div id="colorBox"></div>
+  <header class="header">
+    <h1 class="title">HexGen</h1>
+    <p class="subtitle">From Hex to RGB, simplified.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="color-preview" id="colorPreview"></div>
+
+      <div class="color-info">
+        <span id="rgbValue">rgb(170, 187, 204)</span>
+        <span class="material-symbols-outlined icon copy" id="copyRgbBtn">content_copy</span>
+      </div>
+
+      <div class="input-group">
+        <input type="text" id="hexInput" placeholder="#AABBCC" maxlength="7">
+        <span class="material-symbols-outlined icon refresh" id="refreshBtn">refresh</span>
+      </div>
+
+      <button id="copyBtn" class="copy-btn">
+        <span class="material-symbols-outlined">content_copy</span>
+        Copy Hex
+      </button>
+    </section>
+  </main>
+
   <script src="script.js"></script>
 </body>
 </html>
