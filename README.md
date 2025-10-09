@@ -1,14 +1,25 @@
-🎨 Hex Color Tester + RGB Converter
+# 🎨 HexGen
 
-A minimal tool to preview hex colors and see their RGB values instantly.  
-Built with HTML, CSS, and JavaScript.
+A minimalist color tool that converts **Hex → RGB**, with a clean interface and smooth interactivity. 
 
-🚀 Features
+## 🚀 Features
 
-- Live color preview
-- Validates hex codes
-- Converts to RGB on the fly
+- Live color preview  
+- Random hex color generator  
+- Instant Hex → RGB conversion  
+- Copy buttons for both Hex and RGB values  
+- Responsive and minimalist design
 
-💡 Usage
+## 💡 Usage
 
-Type a hex code (like '#ff00ff') — the box updates, and RGB shows below.
+- Enter a Hex code (e.g. `#AABBCC`) to preview and see its RGB value.  
+-  Click the refresh icon to generate a random color.  
+- Click the **copy buttons** to copy the value.
+
+Feeling colorful? Try **[HexGen](https://paulspective.github.io/hexgen/)** — your shortcut to stunning hex palettes.
+
+## 🧠 Inspiration
+
+A quick and elegant way to play with colors — no clutter, just the essentials.
+
+---
