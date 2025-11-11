@@ -53,12 +53,11 @@ refreshBtn.addEventListener('click', () => {
 });
 
 // Copy to clipboard handlers
-const copyIcon = document.getElementById('copyIcon');
 copyBtn.addEventListener('click', () => {
   const hexValue = hexInput.value.trim();
   navigator.clipboard.writeText(hexValue).then(() => {
-    copyIcon.textContent = 'done';
-    setTimeout(() => copyIcon.textContent = 'content_copy', 1000);
+    copyBtn.textContent = 'done';
+    setTimeout(() => copyBtn.textContent = 'content_copy', 1000);
   });
 });
 
@@ -69,4 +68,5 @@ copyRgbBtn.addEventListener('click', () => {
     setTimeout(() => copyRgbBtn.textContent = 'content_copy', 1000);
   });
 });
+
 
